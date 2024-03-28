@@ -5,5 +5,6 @@ def change():
     print(f"Ingresar gasto: \n{expense}")
     print(f"Dinero recibido \n{money}")
     print(f"\nVuelto \n")
-    print(f"Pesos: \n {int(money-expense)}")
-    print(f"Centavos: \n {x}")
+    print(f"Pesos: \n{int(money-expense)}")
+    print(f"Centavos: \n{x}")
+change()
