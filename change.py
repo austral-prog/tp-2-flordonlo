@@ -1,6 +1,7 @@
 def change():
     expense = 23.75
     money = 100
+    x = (int((money-expense-(int(money-expense)))*100))
     print("Ingresar gasto:")
     print(expense)
     print("Dinero recibido")
@@ -11,5 +12,5 @@ def change():
     print("Pesos:")
     print(int(money-expense))
     print("Centavos:")
-    print(int((money-expense-76)*100))
+    print(x)
 change()
