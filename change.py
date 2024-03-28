@@ -12,4 +12,4 @@ def change():
     print(int(money-expense))
     print("Centavos:")
     print(int((money-expense-76)*100))
-ada()
+change()
