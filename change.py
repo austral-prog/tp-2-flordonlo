@@ -3,7 +3,7 @@ def change():
     money = 100
     print(f"Ingresar gasto: \n{expense}")
     print(f"Dinero recibido: \n{money}")
-    print(f"Vuelto \n")
+    print(f"\nVuelto \n")
     print(f"Pesos: \n{int(money-expense)}")
     print(f"Centavos: \n{int(((money-expense)-int(money-expense))*100)}")
 change()
