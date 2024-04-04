@@ -13,5 +13,4 @@ def change():
    print(int(money-expense))
    print("Centavos:")
    print(x)
-   print(f"Ingresar gasto: \n{expense}")
 change()
